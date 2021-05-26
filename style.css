@@ -1,0 +1,93 @@
+body {
+  background-color: #ecc8ff;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  color: rgba(128, 128, 128, 0.76);
+  text-align: center;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media(max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
+
+div {
+  display: block;
+}
+
+.container {
+ text-align: center;
+ margin: 40px auto;
+ width: 700px;
+}
+
+.card-white {
+  background-color: rgba(255, 255, 255, 0.781);
+  border-radius: 6px;
+  padding: 40px;
+  margin: 20px 0px;
+}
+
+.shadow {
+  box-shadow: rgba(67, 34, 82, 0.63);
+}
+
+a {
+  color: #8600ce;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #c700ce;
+  text-decoration: none;
+}
+
+h1 {
+  color: #8600ce;
+  font-family: 'Megrim';
+  font-weight: 400px;
+  font-size: 52px;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.list-inline {
+  list-style: none;
+  color: #8600ce;
+  padding-left: 0px;
+  font-weight: 400px;
+  font-size: 40px;
+}
+
+.list-inline li {
+  display: inline;
+}
+
+.fa:hover {
+  color: #c700ce;
+}
+
+#box-bloc-1 {
+  font-size: 15px;
+}
+
+#box-bloc-2 {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-style: italic;
+  font-size: 10px;
+}
